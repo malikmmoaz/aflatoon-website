@@ -16,7 +16,7 @@ const config: Config = {
         "card-dark": "#122017",
       },
       fontFamily: {
-        "display": ["Be Vietnam Pro", "sans-serif"]
+        display: ["var(--font-be-vietnam-pro)", "sans-serif"],
       },
       borderRadius: {
         "DEFAULT": "0.25rem",

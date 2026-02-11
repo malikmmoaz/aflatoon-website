@@ -1,0 +1,11 @@
+
+> aflatoon-ui@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+   ▲ Next.js 15.1.6
+   - Local:        http://localhost:3001
+   - Network:      http://192.168 ○ Compiling / ...
+ ✓ Compiled / in 3.5s (597 modules)
+ ✓ Compiled in 698ms (289 modules)
+ GET / 200 in 4238ms
