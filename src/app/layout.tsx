@@ -11,6 +11,9 @@ const beVietnamPro = Be_Vietnam_Pro({
 export const metadata: Metadata = {
   title: "Aflatoon - AI Assistant for Appointments & Food",
   description: "Your 24/7 WhatsApp Assistant — in Urdu & English",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`dark ${beVietnamPro.variable}`}>
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className="antialiased font-display bg-background-dark text-gray-200">
         {children}
