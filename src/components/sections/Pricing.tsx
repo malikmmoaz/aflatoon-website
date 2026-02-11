@@ -104,8 +104,8 @@ const Pricing = () => {
           <div className="bg-background-dark p-8 rounded-2xl border border-gray-800 hover:border-primary transition-all">
             <h3 className="text-xl font-bold mb-2 text-white">Pro</h3>
             <div className="text-4xl font-black text-white mb-6">
-              Rs. 19,999
-              <span className="text-sm font-normal text-gray-500">/mo</span>
+              Contact Us
+              {/*<span className="text-sm font-normal text-gray-500">/mo</span>*/}
             </div>
             <ul className="space-y-4 mb-8 text-gray-400">
               <li className="flex items-center gap-2">
