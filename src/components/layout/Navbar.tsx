@@ -29,6 +29,12 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex items-center gap-4">
           <a
+            className="text-sm font-medium hover:text-primary transition-colors"
+            href="/dashboard"
+          >
+            Dashboard
+          </a>
+          <a
             className="text-sm font-bold rounded-lg hover:bg-primary/10 transition-colors"
             href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
             target="_blank"
