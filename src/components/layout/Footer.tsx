@@ -74,7 +74,7 @@ const Footer = () => {
               <a
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition-colors"
                 href="mailto:team@aflatoon.ai"
-                aria-label="Email us at team@aflatoon.ai"
+                aria-label="Email us"
               >
                 <span className="material-symbols-outlined text-xl">mail</span>
               </a>
