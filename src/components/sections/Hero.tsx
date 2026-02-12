@@ -14,7 +14,7 @@ const Hero = () => {
             <span className="text-primary">Urdu & English</span>*/}
             AI Operating System for{" "}
             <span className="text-primary">
-              restuarants & service providers
+              restaurants & service providers
             </span>
           </h1>
           <p className="text-xl text-gray-400 mb-10 max-w-xl">
@@ -24,13 +24,13 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
-              className="text-sm font-bold rounded-lg hover:bg-primary/10 transition-colors"
+              className="bg-primary text-black font-bold px-8 py-4 rounded-xl text-lg hover:shadow-[0_0_30px_-5px_rgba(56,224,123,0.5)] transition-all inline-block text-center"
               href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Get Started - Contact us on WhatsApp"
             >
-              <button className="bg-primary text-black font-bold px-8 py-4 rounded-xl text-lg hover:shadow-[0_0_30px_-5px_rgba(56,224,123,0.5)] transition-all">
-                Get Started
-              </button>
+              Get Started
             </a>
             {/*<button className="bg-card-dark text-white border border-gray-700 font-bold px-8 py-4 rounded-xl text-lg hover:bg-gray-800 transition-colors flex items-center justify-center gap-2">
               <span className="material-symbols-outlined">play_circle</span> See

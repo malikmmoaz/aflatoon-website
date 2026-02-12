@@ -1,12 +1,13 @@
 import React from "react";
+import Image from "next/image";
 
 const WhatsAppMockup = () => {
   return (
     <div className="relative">
       <div className="relative mx-auto border-gray-800 bg-gray-900 border-[14px] rounded-[3rem] h-[650px] w-[320px] shadow-2xl overflow-hidden ring-4 ring-primary/5">
         <div className="absolute top-0 w-full h-16 bg-[#075e54] flex items-center px-4 pt-4 text-white z-10">
-          <div className="w-8 h-8 rounded-full bg-gray-400 mr-2 flex items-center justify-center">
-            <img className="rounded-full" src="logo_square.png" />
+          <div className="w-8 h-8 rounded-full bg-gray-400 mr-2 flex items-center justify-center overflow-hidden">
+            <Image className="rounded-full" src="/logo_square.png" alt="Aflatoon AI avatar" width={32} height={32} />
           </div>
           <div>
             <div className="text-xs font-bold leading-tight">Aflatoon AI</div>
@@ -105,6 +106,8 @@ const WhatsAppMockup = () => {
             <a
               href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Send us a message on WhatsApp"
             >
               <span className="material-symbols-outlined">send</span>
             </a>

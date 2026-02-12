@@ -45,13 +45,13 @@ const Pricing = () => {
               </li>
             </ul>
             <a
-              className="text-sm font-bold rounded-lg hover:bg-primary/10 transition-colors"
+              className="block w-full py-3 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all text-center"
               href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contact Sales for Starter plan"
             >
-              <button className="w-full py-3 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all">
-                Contact Sales
-              </button>
+              Contact Sales
             </a>
           </div>
           {/* Growth */}
@@ -91,13 +91,13 @@ const Pricing = () => {
               </li>
             </ul>
             <a
-              className="text-sm font-bold rounded-lg hover:bg-primary/10 transition-colors"
+              className="block w-full py-3 rounded-xl bg-primary text-black font-bold hover:opacity-90 transition-all text-center"
               href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contact Sales for Growth plan"
             >
-              <button className="w-full py-3 rounded-xl bg-primary text-black font-bold hover:opacity-90 transition-all">
-                Contact Sales
-              </button>
+              Contact Sales
             </a>
           </div>
           {/* Pro */}
@@ -134,13 +134,13 @@ const Pricing = () => {
               </li>
             </ul>
             <a
-              className="text-sm font-bold rounded-lg hover:bg-primary/10 transition-colors"
+              className="block w-full py-3 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all text-center"
               href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contact Sales for Pro plan"
             >
-              <button className="w-full py-3 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all">
-                Contact Sales
-              </button>
+              Contact Sales
             </a>
           </div>
         </div>
