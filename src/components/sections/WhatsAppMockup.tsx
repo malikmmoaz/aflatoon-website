@@ -6,7 +6,7 @@ const WhatsAppMockup = () => {
       <div className="relative mx-auto border-gray-800 bg-gray-900 border-[14px] rounded-[3rem] h-[650px] w-[320px] shadow-2xl overflow-hidden ring-4 ring-primary/5">
         <div className="absolute top-0 w-full h-16 bg-[#075e54] flex items-center px-4 pt-4 text-white z-10">
           <div className="w-8 h-8 rounded-full bg-gray-400 mr-2 flex items-center justify-center">
-            <img className="rounded-full" src="logo_square.png" />
+            <img className="rounded-full" src="logo_square.png" alt="Aflatoon AI" />
           </div>
           <div>
             <div className="text-xs font-bold leading-tight">Aflatoon AI</div>
@@ -14,29 +14,9 @@ const WhatsAppMockup = () => {
           </div>
         </div>
         <div className="h-full pt-16 pb-16 bg-[#e5ddd5] dark:bg-[#0b141a] overflow-y-auto px-3 flex flex-col gap-4">
-          <div className="mt-4 flex justify-end">
-            {/*<div className="bg-[#dcf8c6] dark:bg-[#005c4b] text-gray-900 dark:text-white p-3 rounded-2xl rounded-tr-none max-w-[85%] shadow-sm">
-              <div className="flex items-center gap-2">
-                <span className="material-symbols-outlined text-gray-500 dark:text-gray-300">
-                  play_arrow
-                </span>
-                <div className="flex flex-col gap-0.5">
-                  <div className="w-32 h-1.5 bg-gray-300 dark:bg-gray-700 rounded-full">
-                    <div className="w-[60%] h-full bg-[#34b7f1] rounded-full"></div>
-                  </div>
-                  <div className="text-[10px] text-gray-500 dark:text-gray-300">
-                    0:08
-                  </div>
-                </div>
-              </div>
-              <div className="text-[10px] text-right mt-1 opacity-70">
-                12:45 PM
-              </div>
-            </div>*/}
-          </div>
-          <div className="flex justify-start">
+          <div className="flex justify-start mt-4">
             <div className="bg-white dark:bg-[#202c33] text-gray-800 dark:text-gray-100 p-3 rounded-2xl rounded-tl-none max-w-[85%] shadow-sm">
-              <p className="text-sm">2 Large Pepporini. Same address.</p>
+              <p className="text-sm">2 Large Pepperoni. Same address.</p>
               <div className="text-[10px] text-right mt-1 opacity-70">
                 12:45 PM
               </div>
@@ -46,12 +26,8 @@ const WhatsAppMockup = () => {
             <div className="bg-[#dcf8c6] dark:bg-[#005c4b] text-gray-900 dark:text-white p-3 rounded-2xl rounded-tr-none max-w-[85%] shadow-sm">
               <div className="flex items-center gap-2">
                 <div className="flex flex-col gap-0.5">
-                  <p className="text-sm">2 Large Pepporini @ 300</p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm font-bold">Confirm Address:</p>
+                  <p className="text-sm">2 Large Pepperoni @ 300</p>
+                  <p className="text-sm font-bold mt-2">Confirm Address:</p>
                   <p className="text-sm">
                     House 123, Street 45, Bahria Enclave
                   </p>
@@ -75,19 +51,8 @@ const WhatsAppMockup = () => {
                   <p className="text-sm">
                     Thank you for your order. Rider will be in touch shortly.
                   </p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm"></p>
-                  <p className="text-sm font-thin italic">
-                    powered by © aflatoon.ai
+                  <p className="text-sm font-thin italic mt-2 text-[10px] opacity-70">
+                    powered by aflatoon.ai
                   </p>
                 </div>
               </div>
@@ -105,8 +70,13 @@ const WhatsAppMockup = () => {
             <a
               href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Send message"
+              className="flex items-center justify-center"
             >
-              <span className="material-symbols-outlined">send</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+              </svg>
             </a>
           </div>
         </div>
