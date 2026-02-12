@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aflatoon.ai/sitemap.xml

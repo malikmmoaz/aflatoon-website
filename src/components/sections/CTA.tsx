@@ -17,10 +17,10 @@ const CTA = () => {
               href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
               target="_blank"
               rel="noopener noreferrer"
+              className="bg-black text-white font-bold px-10 py-5 rounded-2xl text-xl hover:scale-105 transition-transform inline-block"
+              aria-label="Start Now - Contact us on WhatsApp"
             >
-              <button className="bg-black text-white font-bold px-10 py-4 rounded-xl text-lg hover:scale-105 transition-transform">
-                Start Now →
-              </button>
+              Start Now
             </a>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,7 +8,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12 items-start">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <img src="/logo.png" width={105} alt="Aflatoon" />
+              <div className="flex items-center gap-3">
+                <Image src="/logo.png" alt="Aflatoon AI Logo" width={105} height={30} />
+              </div>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed">
               The smartest AI-powered WhatsApp assistant for service, catering,
@@ -47,14 +50,14 @@ const Footer = () => {
                 href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="WhatsApp"
+                aria-label="Contact us on WhatsApp"
               >
                 💬
               </a>
               <a
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition-colors text-lg"
                 href="mailto:team@aflatoon.ai"
-                aria-label="Email"
+                aria-label="Email us"
               >
                 ✉️
               </a>
