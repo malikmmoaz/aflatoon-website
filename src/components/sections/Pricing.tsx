@@ -42,17 +42,11 @@ const Pricing = () => {
               </li>
             </ul>
             <a
-<<<<<<< HEAD
-              href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
-              target="_blank"
-              rel="noopener noreferrer"
-=======
               className="block w-full py-3 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all text-center"
               href="https://wa.me/923239856439?text=I%20would%20like%20to%20learn%20more%20about%20Aflatoon%20AI%21"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Contact Sales for Starter plan"
->>>>>>> copilot/improve-landing-page-seo
             >
               Contact Sales
             </a>
