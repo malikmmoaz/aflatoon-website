@@ -9,8 +9,8 @@ const CTA = () => {
             Ready to Automate Your Business?
           </h2>
           <p className="text-lg md:text-xl font-medium mb-10 max-w-2xl mx-auto opacity-80">
-            Join 500+ service and food businesses in Pakistan using AI to
-            automate their operations.
+            Join fast growing and popular service and food businesses in
+            Pakistan using AI to automate their operations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

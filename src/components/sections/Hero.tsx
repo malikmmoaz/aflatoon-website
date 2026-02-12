@@ -18,7 +18,7 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-xl leading-relaxed">
             Aflatoon takes orders, schedules appointments, and manages
             deliveries on text, voice and call. Grow, nurture, and retain every
-            customer with 24/7 VIP treatment.
+            customer with 24/7 support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center">
             <a
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="mt-10 flex flex-wrap items-center gap-6 justify-center md:justify-start text-sm text-gray-500">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-primary inline-block"></span>
-              500+ Businesses Onboarded
+              ~30% Increase in Sales
             </div>
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-primary inline-block"></span>

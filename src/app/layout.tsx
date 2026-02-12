@@ -9,7 +9,8 @@ const beVietnamPro = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Aflatoon - AI WhatsApp Assistant for Restaurants & Service Businesses in Pakistan",
+  title:
+    "Aflatoon - AI WhatsApp Assistant for Restaurants & Service Businesses in Pakistan",
   description:
     "Aflatoon is an AI-powered WhatsApp assistant that takes orders, schedules appointments, and manages deliveries for restaurants, salons, clinics, and service businesses in Pakistan. Available 24/7 in Urdu & English.",
   keywords: [
@@ -29,7 +30,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Aflatoon - AI WhatsApp Assistant for Restaurants & Service Businesses",
+    title:
+      "Aflatoon - AI WhatsApp Assistant for Restaurants & Service Businesses",
     description:
       "Take orders, schedule appointments, and manage deliveries on WhatsApp with AI. 24/7 support in Urdu & English for restaurants, salons, clinics, and more.",
     url: "https://aflatoon.ai",
@@ -47,7 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aflatoon - AI WhatsApp Assistant for Restaurants & Service Businesses",
+    title:
+      "Aflatoon - AI WhatsApp Assistant for Restaurants & Service Businesses",
     description:
       "Take orders, schedule appointments, and manage deliveries on WhatsApp with AI. 24/7 support in Urdu & English.",
     images: ["/logo_square.png"],
@@ -93,10 +96,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`dark ${beVietnamPro.variable}`}>
       <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

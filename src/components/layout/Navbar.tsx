@@ -1,14 +1,24 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <header className="w-full sticky top-0 z-50 bg-background-dark/80 backdrop-blur-md border-b border-primary/10">
-      <nav className="container mx-auto px-6 py-4 flex justify-between items-center" aria-label="Main navigation">
+      <nav
+        className="container mx-auto px-6 py-4 flex justify-between items-center"
+        aria-label="Main navigation"
+      >
         <div className="flex items-center gap-3">
-          <a href="/" aria-label="Aflatoon - Home">
-            <Image src="/logo.png" alt="Aflatoon AI Logo" width={105} height={30} priority />
-          </a>
+          <Link href="/" aria-label="Aflatoon - Home">
+            <Image
+              src="/logo.png"
+              alt="Aflatoon AI Logo"
+              width={105}
+              height={30}
+              priority
+            />
+          </Link>
         </div>
         <div className="hidden md:flex items-center gap-8">
           <a
