@@ -1,13 +1,14 @@
 import React from "react";
+import { Pizza, Cake, Stethoscope, Scissors, Dumbbell, Hospital } from "lucide-react";
 
 const BusinessTypes = () => {
   const types = [
-    { icon: "🍕", label: "Restaurants" },
-    { icon: "🎂", label: "Catering" },
-    { icon: "🦷", label: "Dentists" },
-    { icon: "💇", label: "Salons" },
-    { icon: "🏋️", label: "Gyms" },
-    { icon: "🏥", label: "Clinics" },
+    { icon: Pizza, label: "Restaurants" },
+    { icon: Cake, label: "Catering" },
+    { icon: Stethoscope, label: "Dentists" },
+    { icon: Scissors, label: "Salons" },
+    { icon: Dumbbell, label: "Gyms" },
+    { icon: Hospital, label: "Clinics" },
   ];
 
   return (
@@ -30,7 +31,7 @@ const BusinessTypes = () => {
               key={index}
               className="bg-background-dark p-6 rounded-2xl border border-gray-800 text-center hover:border-primary/40 hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="text-4xl mb-3">{item.icon}</div>
+              <div className="mb-3 flex justify-center"><item.icon className="w-10 h-10 text-primary" /></div>
               <p className="font-bold text-sm">{item.label}</p>
             </div>
           ))}

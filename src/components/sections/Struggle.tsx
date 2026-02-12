@@ -1,27 +1,12 @@
 import React from "react";
+import { Clock, ClipboardList, BarChart3, XCircle } from "lucide-react";
 
 const Struggle = () => {
   const painPoints = [
-    {
-      icon: "⏱️",
-      title: "Attention Span",
-      desc: "Customers demand immediate responses or they lose interest. They want it fast.",
-    },
-    {
-      icon: "📋",
-      title: "Tracking Chaos",
-      desc: "Managing orders through WhatsApp is chaotic. Messages get lost, customers get ignored, and businesses lose money.",
-    },
-    {
-      icon: "📊",
-      title: "Customer Database",
-      desc: "No way to track customers, preferences, or order history. It's all in the chat, and it's impossible to analyze or improve.",
-    },
-    {
-      icon: "❌",
-      title: "Order Errors",
-      desc: "Misunderstanding leads to wrong orders, refunds, and unhappy customers.",
-    },
+    { icon: Clock, title: "Attention Span", desc: "Customers demand immediate responses or they lose interest. They want it fast." },
+    { icon: ClipboardList, title: "Tracking Chaos", desc: "Managing orders through WhatsApp is chaotic. Messages get lost, customers get ignored, and businesses lose money." },
+    { icon: BarChart3, title: "Customer Database", desc: "No way to track customers, preferences, or order history. It's all in the chat, and it's impossible to analyze or improve." },
+    { icon: XCircle, title: "Order Errors", desc: "Misunderstanding leads to wrong orders, refunds, and unhappy customers." },
   ];
 
   return (
@@ -45,7 +30,7 @@ const Struggle = () => {
               key={index}
               className="p-8 rounded-2xl bg-card-dark border border-gray-800 hover:border-primary/30 transition-all hover:-translate-y-1 duration-300"
             >
-              <div className="text-4xl mb-6">{item.icon}</div>
+              <div className="mb-6"><item.icon className="w-10 h-10 text-primary" /></div>
               <h3 className="text-xl font-bold text-white mb-3">
                 {item.title}
               </h3>

@@ -1,4 +1,5 @@
 import React from "react";
+import { MessageCircle, Mail, Heart } from "lucide-react";
 import Image from "next/image";
 
 const Footer = () => {
@@ -52,14 +53,14 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 aria-label="Contact us on WhatsApp"
               >
-                💬
+                <MessageCircle className="w-5 h-5" />
               </a>
               <a
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition-colors text-lg"
                 href="mailto:team@aflatoon.ai"
                 aria-label="Email us"
               >
-                ✉️
+                <Mail className="w-5 h-5" />
               </a>
             </div>
             <p className="text-sm text-gray-500">team@aflatoon.ai</p>
@@ -67,7 +68,7 @@ const Footer = () => {
         </div>
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-center items-center gap-6">
           <p className="text-sm text-gray-500">
-            © 2025 Aflatoon. Made with ❤️ for the Pakistani business community.
+            © 2025 Aflatoon. Made with <Heart className="w-4 h-4 inline text-primary" /> for the Pakistani business community.
           </p>
         </div>
       </div>
