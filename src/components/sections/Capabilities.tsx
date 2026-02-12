@@ -7,7 +7,7 @@ const Capabilities = () => {
         <span className="inline-block px-3 py-1 mb-4 text-xs font-bold text-primary bg-primary/10 rounded-full border border-primary/20 tracking-widest uppercase">
           Features
         </span>
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Full-Stack F&amp;B Capabilities</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Full-Stack F&B Capabilities</h2>
         <p className="text-gray-400 max-w-2xl mx-auto">Everything your business needs to automate customer interactions and operations.</p>
       </div>
       <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -72,7 +72,7 @@ const Capabilities = () => {
               <div className="flex-grow h-0.5 flow-line"></div>
               <div className="text-right">
                 <p className="font-bold text-white">POS / Calendar</p>
-                <p className="text-xs text-gray-500">Syncs Order &amp; Schedule</p>
+                <p className="text-xs text-gray-500">Syncs Order & Schedule</p>
               </div>
             </div>
             <div className="flex items-center gap-6">

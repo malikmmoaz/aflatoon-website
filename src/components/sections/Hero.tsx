@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-black !leading-tight text-white mb-6">
             AI Operating System for{" "}
             <span className="text-primary">
-              Restaurants &amp; Service Providers
+              Restaurants & Service Providers
             </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-xl leading-relaxed">
@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-primary inline-block"></span>
-              Urdu &amp; English Support
+              Urdu & English Support
             </div>
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-primary inline-block"></span>
