@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="mt-10 flex flex-wrap items-center gap-6 justify-center md:justify-start text-sm text-gray-500">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-primary inline-block"></span>
-              ~30% Increase in Sales
+              Plug & Play Integration
             </div>
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-primary inline-block"></span>
